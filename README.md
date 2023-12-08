@@ -11,12 +11,10 @@
 - [Author](#author)
 
 ## Overview
-
-- Calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
   
 ### The Challenge
-  
--  Build a timed coding quiz with multiple-choice questions that store high scores. So that I can gauge my progress compared to my peers. This app will run in the browser and feature dynamically updated HTML and CSS powered by JavaScript code. It will have a clean, polished, and responsive user interface. 
+
+- Build a calendar application that allows users to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. You must use the [Day.js](https://day.js.org/docs/en/display/format) library to work with date and time. 
   
 ### Acceptance Criteria
 
