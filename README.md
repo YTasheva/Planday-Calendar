@@ -46,9 +46,7 @@
 
 * The application resembles the mock-up functionality provided in the homework instructions
 
-* The following mock-up animation demonstrates the application functionality:
-
-![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
+* The following mock-up animation demonstrates the application functionality (a user clicks on slots on the color-coded calendar and edits the events):(./images/05-third-party-apis-homework-demo.gif)
 
 ### Screenshot
 
