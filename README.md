@@ -47,7 +47,8 @@
 * The application resembles the mock-up functionality provided in the homework instructions
 
 * The following mock-up animation demonstrates the application functionality (a user clicks on slots on the color-coded calendar and edits the events):
-  ./images/05-third-party-apis-homework-demo.gif
+  ![05-third-party-apis-homework-demo](https://github.com/YTasheva/Planday-Calendar/assets/148258557/51d74c58-ebaf-48d3-b82b-e570aa557c89)
+
 
 ### Screenshot
 
