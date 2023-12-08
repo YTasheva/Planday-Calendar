@@ -63,7 +63,7 @@
    
 ### Built With
 
-- JavaScript, HTML, CSS, jQuery
+- JavaScript, HTML, CSS, jQuery, Bootstrap
   
 ## Author
 
