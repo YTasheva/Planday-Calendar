@@ -59,8 +59,8 @@
 ### Links
 
 - Solution URL: https://github.com/YTasheva/Planday-Calendar
-- Live Site URL:
-  
+- Live Site URL: https://ytasheva.github.io/Planday-Calendar/
+   
 ### Built With
 
 - JavaScript, HTML, CSS, jQuery
