@@ -46,9 +46,11 @@
 
 * The application resembles the mock-up functionality provided in the homework instructions
 
-* The following mock-up animation demonstrates the application functionality:
+* The following mock-up animation demonstrates the application functionality (a user clicks on slots on the color-coded calendar and edits the events):
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
+  
+  ![05-third-party-apis-homework-demo](https://github.com/YTasheva/Planday-Calendar/assets/148258557/51d74c58-ebaf-48d3-b82b-e570aa557c89)
+
 
 ### Screenshot
 
@@ -56,12 +58,12 @@
 
 ### Links
 
-- Solution URL: 
-- Live Site URL:
-  
+- Solution URL: https://github.com/YTasheva/Planday-Calendar
+- Live Site URL: https://ytasheva.github.io/Planday-Calendar/
+   
 ### Built With
 
-- JavaScript, HTML, CSS, jQuery
+- JavaScript, HTML, CSS, jQuery, Bootstrap
   
 ## Author
 
