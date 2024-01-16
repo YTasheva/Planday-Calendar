@@ -52,16 +52,19 @@
   
   ![05-third-party-apis-homework-demo](https://github.com/YTasheva/Planday-Calendar/assets/148258557/51d74c58-ebaf-48d3-b82b-e570aa557c89)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p
 
 ### Screenshot
 
 
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p
+                                                          
 ### Links
 
 - Solution URL: https://github.com/YTasheva/Planday-Calendar
 - Live Site URL: https://ytasheva.github.io/Planday-Calendar/
-   
+<p align="right">(<a href="#readme-top">back to top</a>)</p
+                                                          
 ### Built With
 
 - JavaScript, HTML, CSS, jQuery, Bootstrap
@@ -69,7 +72,8 @@
 ## Licence
 
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt=""></a>
-  
+<p align="right">(<a href="#readme-top">back to top</a>)</p
+                                                          
 ## Author
 
 - Github - [Yuliya Tasheva](https://github.com/YTasheva)
