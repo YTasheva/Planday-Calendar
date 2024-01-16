@@ -8,6 +8,7 @@
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built With](#built-with)
+- [Installation](#instalation)
 - [Licence](#licence)
 - [Author](#author)
 
@@ -65,6 +66,14 @@
 ### Built With
 
 - JavaScript, HTML, CSS, jQuery, Bootstrap
+
+## Installation
+
+* Download or clone the repository.
+
+* Open the `.HTML` file through your web browser to view.
+
+* Use Visual Studio Code or similar source-code editor to run the code.
 
 ## Licence
 
