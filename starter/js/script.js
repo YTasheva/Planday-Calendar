@@ -54,7 +54,20 @@ $("#hour-17 .description").val(localStorage.getItem("hour-17"));
 $("#currentDay").text(moment().format("dddd, MMMM Do"));
 });
 
-
+var pop = document.getElementById("pop-up");
+var btn = document.getElementById("btn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function () {
+pop.style.display = "block";
+}
+span.onclick = function () {
+pop.style.display = "none";
+}
+window.onclick = function (event) {
+if (event.target == pop) {
+    pop.style.display = "none";
+}
+}
 
 
 
