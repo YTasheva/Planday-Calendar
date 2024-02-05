@@ -39,9 +39,26 @@ var saveBtn=$(".saveBtn").on("click", function () {
         localStorage.setItem(time, value);
     });
 
-    //load any saved data from LocalStorage
+//load any saved data from LocalStorage
 
+function loadTimeBlocks() {
+    $(".time-block").each(function () {
+        var id = $(this).attr("id");
+        var schedule = localStorage.getItem(id);
 
+        if (schedule !== null) {
+            $(this).children(".description").val(schedule);
+        
+        }
+    
+
+    // Event listener for clear all events
+$(".clearBtn").on("click", function () {
+    localStorage.clear();
+    $(".description").val("");
+
+    alert("All events are cleared!");
+});
 
     
     loadTimeBlocks();
