@@ -1,3 +1,7 @@
+//Current day and time
+var dayNtime = $("#currentDay").text(dayjs().format('MMM D dddd, h:mmA'));
+
+
 $(function() {
     $(".saveBtn").on("click", function () {
         var value = $(this).siblings(".description").val();
@@ -18,32 +22,23 @@ $(function() {
         if (event.target == pop) {
             pop.style.display = "none";
         }
-}
+    }
 
-$(function() {
-    $(.deleteBtn).on("click", function () {
-        var value = $(this).siblings(".description").val();
-        var time = $(this).parent().attr("id");
-        localStorage.removeItem(time, value);
-        $(this).siblings(".description").val("");
+    $(function() {
+        $(".deleteBtn").on("click", function () {
+            var value = $(this).siblings(".description").val();
+            var time = $(this).parent().attr("id");
+            localStorage.removeItem(time, value);
+            $(this).siblings(".description").val("");
+        });
     });
-});
 
-var currentHour = dayjs().hour();
-var timeBlock = $(".time-block");
-var saveBtn = $(".saveBtn");
-var deleteBtn = $(".deleteBtn");
-var hour = $(".hour");
-var description = $(".description");
-var time = $(".time");
-var currentDay = $("#currentDay");
-var currentTime = $("#currentTime");
-
-
-hourUpdater();
-var interval = setInterval(hourUpdater, 15000);
-$("#hour-9 .description").val(localStorage.getItem("hour-9"));
-$("#hour-10 .description").val(localStorage.getItem("hour-10"));
+    $("#currentDay").text(moment().format("dddd, MMMM Do"));
+    $("#currentTime");
+    hourUpdater();
+    setInterval(hourUpdater, 15000);
+    $("#hour-9 .description").val(localStorage.getItem("hour-9"));
+    $("#hour-10 .description").val(localStorage.getItem("hour-10"));
 $("#hour-11 .description").val(localStorage.getItem("hour-11"));
 $("#hour-12 .description").val(localStorage.getItem("hour-12"));
 $("#hour-13 .description").val(localStorage.getItem("hour-13"));
