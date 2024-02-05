@@ -20,3 +20,27 @@ $(function() {
         }
 }
 
+$(function() {
+    $(.deleteBtn).on("click", function () {
+        var value = $(this).siblings(".description").val();
+        var time = $(this).parent().attr("id");
+        localStorage.removeItem(time, value);
+        $(this).siblings(".description").val("");
+    });
+});
+
+var currentHour = dayjs().hour();
+var timeBlock = $(".time-block");
+var saveBtn = $(".saveBtn");
+var deleteBtn = $(".deleteBtn");
+var hour = $(".hour");
+var description = $(".description");
+var time = $(".time");
+var currentDay = $("#currentDay");
+var currentTime = $("#currentTime");
+
+
+    
+
+
+
