@@ -13,6 +13,15 @@ textarea {
   padding: 10px;
 }
 
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+
 header {
   text-align: center;
   background-color: transparent;
@@ -54,7 +63,7 @@ header {
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #1b25e3;
   color: white;
 }
 
@@ -63,7 +72,8 @@ header {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
-  color: white;
+  color: rgb(12, 12, 77);
+  cursor: pointer;
 }
 
 .saveBtn i:hover {
