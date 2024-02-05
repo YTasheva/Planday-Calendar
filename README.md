@@ -8,6 +8,8 @@
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built With](#built-with)
+- [Installation](#instalation)
+- [Licence](#licence)
 - [Author](#author)
 
 ## Overview
@@ -55,16 +57,28 @@
 ### Screenshot
 
 
-
+                                                          
 ### Links
 
 - Solution URL: https://github.com/YTasheva/Planday-Calendar
 - Live Site URL: https://ytasheva.github.io/Planday-Calendar/
-   
+                                                          
 ### Built With
 
 - JavaScript, HTML, CSS, jQuery, Bootstrap
-  
+
+## Installation
+
+* Download or clone the repository.
+
+* Open the `.HTML` file through your web browser to view.
+
+* Use Visual Studio Code or similar source-code editor to run the code.
+
+## Licence
+
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt=""></a>
+                                                          
 ## Author
 
 - Github - [Yuliya Tasheva](https://github.com/YTasheva)
