@@ -31,16 +31,16 @@ var saveBtn = $(".saveBtn").on("click", function () {
 
 //load any saved data from LocalStorage
 
-function loadTimeBlocks() {
+function loadDescription() {
   $(".hour").each(function () {
     var currentHour = $(this).text();
-    var schedule = localStorage.getItem(currentHour);
+    var currentDescription = localStorage.getItem(currentHour);
 
-    if (schedule !== null) {
-      $(this).children(".description").val(schedule);
+    if (currentDescription !== null) {
+      $(this).siblings(".description").val(currentDescription);
     }
   });
 }
 
-blockColor();
-loadTimeBlocks();
+
+loadDescription();
