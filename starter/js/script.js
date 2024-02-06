@@ -1,64 +1,56 @@
 //Current day and time
-var dayNtime = $("#currentDay").text(dayjs().format('MMM D dddd, h:mmA'));
+var saveBtn = $(".saveBtn");
+$("#currentDay").text(dayjs().format('MMM D dddd, h:mmA'));
+
 
 //Timeblocks color
+function blockColor() {
+    var hour = dayjs().hours();
 
     $(".time-block").each(function () {
-        var currentHour = parseInt(dayjs().format('H'));
-        var blockHour = parseInt($(this).attr("id").split("-")[1]);
+        var currentHour = parseInt($(this).attr("id"));
 
-        if (blockHour < currentHour) {
-            // past white color block
-            $(this).addClass("past");
+        if (currentHour > hour) {
+            $(this).addClass("future");
         }
         else if (blockHour === currentHour) {
-            $(this).removeClass("past");
-            // present red color block
             $(this).addClass("present");
         }
         else {
-            $(this).removeClass("past");
-            $(this).removeClass("present");
-            // future blue color block
-            $(this).addClass("future");
+            $(this).addClass("past");
+          
         }
-    });
+    })
+};
 
 
 //saveBtn click event
 var saveBtn=$(".saveBtn").on("click", function () {
-        var value = $(this).siblings(".description").val();
-        var time = $(this).parent().attr("id");
+        var description = $(this).siblings(".description").val();
+        var time = $(this).siblings(".hour").text();
 
-        if (value) {
+        if (description) {
             alert("The text is saved!");
         }
         else {
             alert("The text is not saved!");
         }
-        localStorage.setItem(time, value);
+        localStorage.setItem(time, description);
     });
 
 //load any saved data from LocalStorage
 
 function loadTimeBlocks() {
-    $(".time-block").each(function () {
-        var id = $(this).attr("id");
-        var schedule = localStorage.getItem(id);
+    $(".hour").each(function () {
+        var currentHour = $(this).text();
+        var schedule = localStorage.getItem(currentHour);
 
         if (schedule !== null) {
             $(this).children(".description").val(schedule);
         
         }
-    
+    });
+}
 
-    // Event listener for clear all events
-$(".clearBtn").on("click", function () {
-    localStorage.clear();
-    $(".description").val("");
-
-    alert("All events are cleared!");
-});
-
-    
-    loadTimeBlocks();
+blockColor();
+loadTimeBlocks();
