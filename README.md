@@ -65,7 +65,7 @@
                                                           
 ### Built With
 
-- JavaScript, HTML, CSS, jQuery, Bootstrap
+- HTML, CSS, jQuery, Bootstrap, Day.js
 
 ## Installation
 
