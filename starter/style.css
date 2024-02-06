@@ -20,7 +20,7 @@ textarea {
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: rgb(23, 28, 128);
   border-radius: 0;
   border-bottom: 10px solid #091e5b;
 }
