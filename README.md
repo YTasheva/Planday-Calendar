@@ -60,8 +60,8 @@
                                                           
 ### Links
 
-- Solution URL: https://github.com/YTasheva/Planday-Calendar
-- Live Site URL: https://ytasheva.github.io/Planday-Calendar/
+- [GitHub Repo](https://github.com/YTasheva/Planday-Calendar)
+- [Deployed Application](https://ytasheva.github.io/Planday-Calendar/)
                                                           
 ### Built With
 
@@ -81,4 +81,9 @@
                                                           
 ## Author
 
-- Github - [Yuliya Tasheva](https://github.com/YTasheva)
+- GitHub - [Yuliya Tasheva](https://github.com/YTasheva)
+
+> [YTasheva.com](#) &nbsp;&middot;&nbsp;
+> LinkedIn [@YTasheva](https://github.com/YTasheva) &nbsp;&middot;&nbsp;
+> Email [ytashevagit@gmail.com](#) &nbsp;&middot;&nbsp;
+
